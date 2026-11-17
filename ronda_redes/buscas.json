@@ -1,0 +1,34 @@
+[
+    {
+        "nome": "Institucional",
+        "booleana": "\"Empresa Exemplo\" OR \"Empresa Exemplo S.A.\" OR @EmpresaExemplo OR #EmpresaExemplo"
+    },
+    {
+        "nome": "Liderança Executiva",
+        "booleana": "(\"Diretor-Presidente\" OR \"Liderança Executiva\" OR \"Porta-Voz Oficial\" OR CEO) AND (\"Empresa Exemplo\" OR \"Grupo Exemplo\")"
+    },
+    {
+        "nome": "Sustentabilidade e ESG",
+        "booleana": "(\"Empresa Exemplo\" OR \"setor de energia\" OR \"indústria\") AND (\"transição energética\" OR descarbonização OR \"crédito de carbono\" OR sustentabilidade OR ESG OR \"energia solar\" OR \"energia eólica\")"
+    },
+    {
+        "nome": "Inovação e Tecnologia",
+        "booleana": "(\"Empresa Exemplo\" OR \"varejo digital\" OR \"indústria 4.0\") AND (\"inteligência artificial\" OR automação OR \"machine learning\" OR cloud OR cibersegurança)"
+    },
+    {
+        "nome": "Regulamentação Setorial",
+        "booleana": "(\"marco regulatório\" OR regulação OR agência OR conformidade) AND (\"setor elétrico\" OR telecomunicações OR saneamento OR mobilidade)"
+    },
+    {
+        "nome": "Relações Trabalhistas",
+        "booleana": "(\"jornada de trabalho\" OR \"modelo híbrido\" OR teletrabalho OR \"acordo coletivo\") AND (empresa OR corporativo OR indústria)"
+    },
+    {
+        "nome": "Logística e Cadeia de Suprimentos",
+        "booleana": "(\"cadeia de suprimentos\" OR \"supply chain\" OR frete OR distribuição OR \"centros de distribuição\") AND (\"Empresa Exemplo\" OR logística)"
+    },
+    {
+        "nome": "Concorrência e Mercado",
+        "booleana": "(\"Concorrente A\" OR \"Concorrente B\" OR \"Market Share\") AND (varejo OR expansão OR faturamento)"
+    }
+]

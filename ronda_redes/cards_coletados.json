@@ -1,0 +1,28 @@
+{
+  "https://x.com/veiculo_noticias/status/1234567890123456789": {
+    "autor": "Valor Notícias",
+    "canal": "twitter",
+    "conteudo": "A Empresa Exemplo apresentou hoje seus novos investimentos em transição energética e modernização logística para os próximos anos.",
+    "seguidores": 350000,
+    "curtidas": 240,
+    "comentarios": 35,
+    "compartilhamentos": 58,
+    "views": 15000,
+    "interacoes": 333,
+    "data_pub": "17/11/2026 10:15",
+    "imagem_url": null
+  },
+  "https://x.com/portal_inovacao/status/9876543210987654321": {
+    "autor": "Portal Tech & Negócios",
+    "canal": "twitter",
+    "conteudo": "Diretoria da Empresa Exemplo detalha expansão de centros de distribuição automatizados com inteligência artificial.",
+    "seguidores": 85000,
+    "curtidas": 180,
+    "comentarios": 19,
+    "compartilhamentos": 42,
+    "views": 9200,
+    "interacoes": 241,
+    "data_pub": "17/11/2026 10:45",
+    "imagem_url": null
+  }
+}

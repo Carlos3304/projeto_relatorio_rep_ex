@@ -1,0 +1,47 @@
+{
+    "NAVEGADOR": "chrome",
+    "_PERFIL_NOTA": "Perfil dedicado do navegador (login das redes fica salvo aqui). Use o mesmo no dom_inspector.",
+    "PERFIL_CAMINHO": "./perfil_ronda_redes",
+    "HEADLESS": false,
+    "AGUARDAR_ENTER": true,
+    "CICLO_UNICO": false,
+    "MODO_DEBUG": true,
+    "MIN_SEGUIDORES": 10000,
+    "MIN_INTERACOES": 20,
+    "INTERVALO_MINUTOS": 30,
+    "ATRASO_MINUTOS": 60,
+    "PAUSA_ENTRE_BUSCAS_SEG": [
+        6,
+        15
+    ],
+    "ARQUIVO_BUSCAS": "buscas.json",
+    "ARQUIVO_HISTORICO": "historico_links.txt",
+    "ARQUIVO_CARDS": "cards_coletados.json",
+    "PASTA_SAIDA": "output",
+    "PLATAFORMAS": {
+        "twitter": {
+            "ATIVO": true,
+            "MIN_SEGUIDORES": 10000,
+            "MIN_INTERACOES": 20,
+            "CONTAR_VIEWS_EM_INTERACOES": false,
+            "_CURINGA_NOTA": "X não aceita '*'. expandir = motorista* -> motorista OR motoristas | remover = só a raiz",
+            "MODO_CURINGA": "expandir",
+            "FILTROS_EXTRAS": "-filter:retweets",
+            "INCLUIR_RESPOSTAS": true,
+            "EXCLUIR_REPOSTS": true,
+            "TAMANHO_MAX_QUERY": 500,
+            "MAX_SCROLLS": 25,
+            "SCROLLS_SEM_NOVIDADE": 3,
+            "TIMEOUT_CARREGAMENTO_SEG": 25,
+            "TENTATIVAS_ERRO": 3,
+            "PAUSA_RATE_LIMIT_SEG": 15,
+            "PAUSA_ENTRE_SUBBUSCAS_SEG": [
+                4,
+                9
+            ],
+            "FILTRO_IDIOMA": "pt"
+        }
+    },
+    "INICIO_RONDA": "25/10/2026 19:31",
+    "FIM_RONDA": "25/10/2026 21:00"
+}
